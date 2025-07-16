@@ -1,4 +1,4 @@
-@import url(normalise.css);
+@import url('normalise.css');
 
 :root {
     --primary-color-0: #00b5f5;
@@ -22,6 +22,8 @@ nav ul {
 
 main {
     width: 1200px;
+    min-height: calc(100vh - 77px - 118px);
+    padding-bottom: 118px;
     margin: auto;
     background-color: #cfcfcf;
 }
@@ -34,6 +36,38 @@ main {
 
 .hero-img {
     width: 1200px;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    gap: 5px;
+    grid-template-columns: 100px 300px;
+
+    height: 100%;
+    width: 500px;
+    padding: 20px;
+    border-radius: 2%;
+    margin: auto;
+    background-color: var(--primary-color-0);
+}
+
+.form {
+    padding-bottom: 20px;
+
+}
+
+.submit {
+}
+
+.submit:hover {
+    background-color: var(--primary-color-0);
+}
+
+.text-title {
+    text-align: center;
+    padding: 30px 0 20px 0;
+
 }
 
 footer {

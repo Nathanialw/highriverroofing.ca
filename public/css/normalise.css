@@ -5,6 +5,11 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
 ul {
     list-style: none;
 }
@@ -13,3 +18,4 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
