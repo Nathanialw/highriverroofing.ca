@@ -1,0 +1,11 @@
+header {
+    background-color: aqua;
+    display: flexbox;
+    justify-content: center;
+}
+
+
+
+.background {
+    background-color: indigo;
+}
