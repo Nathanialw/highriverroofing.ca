@@ -28,28 +28,27 @@
             <section class="form">
                 <h2 class="text-title">Contact Us</h3>			                    
                 <form action="">
+                    <div class="fields">
                         <label for="name">Name:</label>
-                        <input type="text" name="name">
-
-                        <label for="phone">Phone:</label>
-                        <input type="tel" name="phone">
+                        <input type="text" name="name" placeholder="  required" class="text-input" required>
 
                         <label for="email">Email:</label>
-                        <input type="email" name="email" id="">
+                        <input type="email" name="email" id="" placeholder="  required" class="text-input" required>
+
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" class="text-input">
 
                         <label for="address">Address:</label>
-                        <input type="text" name="address" id="">
+                        <input type="text" name="address" id="" class="text-input">
 
                         <label for="town">Town:</label>
-                        <input type="text" name="town" id="">
+                        <input type="text" name="town" id="" class="text-input">
 
-                        <label for="">Message</label>
-                        <textarea type="textarea" name="" id="" rows="10"></textarea>
+                        <label for="">Message:</label>
+                        <textarea type="textarea" name="" id="" rows="10" placeholder="  required" class="text-input" required></textarea>
 
-
-                        <!-- <label for="submit"></label> -->
-                        <input type="button" name="submit" value="Submit" class="submit">
-                    <!-- on submit send the data to my email -->
+                    </div>
+                    <input type="button" name="submit" value="Submit" class="submit">
                 </form>
 			</section>
         </main>
