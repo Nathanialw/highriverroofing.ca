@@ -1,5 +1,9 @@
 @import url(normalise.css);
 
+:root {
+    --primary-color-0: #00b5f5;
+}
+
 .logo {
     width: 50px;
     border-radius: 50%;
@@ -12,8 +16,8 @@ nav ul {
     align-items: center;
     gap: 30px;
     
-    
-    background-color: aqua;
+    padding: 10px;
+    background-color: var(--primary-color-0);
 }
 
 main {
@@ -32,8 +36,11 @@ main {
     width: 1200px;
 }
 
-
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
     padding: 30px;
-    background-color: aqua;
+    background-color: var(--primary-color-0);
 }
