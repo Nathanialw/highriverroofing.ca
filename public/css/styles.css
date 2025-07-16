@@ -2,6 +2,9 @@
 
 :root {
     --primary-color-0: #00b5f5;
+    /* --secondary-color-0: #efefef; */
+    --secondary-color-0: #fafafa;
+    --background-color: #fafafa;
 }
 
 .logo {
@@ -25,7 +28,7 @@ main {
     min-height: calc(100vh - 77px - 118px);
     padding-bottom: 118px;
     margin: auto;
-    background-color: #cfcfcf;
+    background-color: var(--secondary-color-0);
 }
 
 .hero-title {
