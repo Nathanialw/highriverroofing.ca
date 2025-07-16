@@ -1,19 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
+@import url(normalise.css);
 
-ul {
-    list-style: none;
+.logo {
+    width: 50px;
+    border-radius: 50%;
 }
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-
 
 nav ul {
     display: flex;
@@ -26,17 +16,24 @@ nav ul {
     background-color: aqua;
 }
 
-.logo {
-    width: 50px;
-    border-radius: 50%;
-}
-
 main {
     width: 1200px;
     margin: auto;
-    background-color: gray;
+    background-color: #cfcfcf;
 }
 
+.hero-title {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-img {
+    width: 1200px;
+}
+
+
 footer {
+    padding: 30px;
     background-color: aqua;
 }
