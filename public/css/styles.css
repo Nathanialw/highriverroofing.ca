@@ -1,11 +1,42 @@
-header {
-    background-color: aqua;
-    display: flexbox;
-    justify-content: center;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 
 
-.background {
-    background-color: indigo;
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+    
+    background-color: aqua;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 50%;
+}
+
+main {
+    width: 1200px;
+    margin: auto;
+    background-color: gray;
+}
+
+footer {
+    background-color: aqua;
 }
