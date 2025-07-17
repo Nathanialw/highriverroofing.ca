@@ -151,6 +151,10 @@ label {
     text-indent: 30px;
 }
 
+.article {
+    display: flex;
+}
+
 footer {
     position: fixed;
     bottom: 0;
