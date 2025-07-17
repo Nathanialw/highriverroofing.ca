@@ -147,7 +147,8 @@ label {
 }
 
 .text-list-item {
-    text-indent: 30px;
+    text-indent: 5px;
+    list-style: disc; 
 }
 
 .article {
