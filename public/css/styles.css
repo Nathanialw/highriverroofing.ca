@@ -169,7 +169,8 @@ footer {
     bottom: 0;
     left: 0;
     width: 100vw;
-    
+    height: 118px;
+
     padding: 30px;
     background-color: var(--primary-color-0);
 }
