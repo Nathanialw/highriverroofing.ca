@@ -149,6 +149,7 @@ label {
 .text-list-item {
     text-indent: 5px;
     list-style: disc; 
+    margin-left: 50px;
 }
 
 .article {
