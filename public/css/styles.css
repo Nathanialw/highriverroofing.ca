@@ -147,6 +147,10 @@ label {
 
 }
 
+.text-list-item {
+    text-indent: 30px;
+}
+
 footer {
     position: fixed;
     bottom: 0;
