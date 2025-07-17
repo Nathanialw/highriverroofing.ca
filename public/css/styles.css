@@ -166,6 +166,29 @@ label {
     box-shadow: 10px 5px 5px gray;
 }
 
+.thanks-container {
+    padding-top: 400px;
+}
+
+.thanks-bg {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 550px;
+    height: 300px;
+    border-radius: 3%;
+    background-color: var(--primary-color-0);
+}
+
+.thanks-text {
+    /* text-align: center; */
+    padding: 110px 20px;
+
+    border-radius: 3%;
+    background-color: #fafafa;
+}
+
 footer {
     position: fixed;
     bottom: 0;
